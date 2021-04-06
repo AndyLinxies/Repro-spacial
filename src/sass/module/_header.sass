@@ -1,0 +1,36 @@
+.montagne
+    height: 65vh
+    width: 100%
+    background-image: url(../images/banner.jpg)//bug en html
+    background-size: cover//pour que l'img fit les dimentions de sa div
+    background-repeat: no-repeat
+    color: white
+    .test
+        background-color: rgba(46,47, 56,0.75)
+        height: 65vh //filtre gris sur l'image.bg-colr pas sur la div parent car elle a deja l'image mais sur celle d'apres 
+        text-align: center
+        .nav
+            display: flex
+            justify-content: space-between //Les separe en 2blocs gauche et droite
+            .gch
+                padding-left: 4%
+                padding-top: 3%
+            .menu
+                padding-top: 3%
+                padding-right: 5%
+                width: 25%
+                a
+                    text-decoration: none
+                    color: white
+                    padding-left: 3%
+        .spacial-mil
+            padding-top: 7%
+            p
+                color: gray
+            button
+                margin-top: 1%
+                height: 5vh
+                border-radius: 5px
+                border: 1px
+                background-color: #f32853
+                color: white
